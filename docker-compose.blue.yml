@@ -1,7 +1,7 @@
 version: "3"
 services:
   fastapi-blue:
-    image: 861276093247.dkr.ecr.eu-north-1.amazonaws.com/acc-cicd
+    image: 861276093247.dkr.ecr.eu-north-1.amazonaws.com/acc-cicd:latest
     container_name: fastapi-blue
     ports:
       - "8001:8000"
